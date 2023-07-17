@@ -1,0 +1,26 @@
+{
+  "name": "e13_7_test",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "webpack serve --open --config config/webpack.dev.js",
+    "prepare": "husky install",
+	"lint": "eslint . "
+  },
+  "author": "dzhoser",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "path": "^0.12.7",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.3"
+  }
+}
